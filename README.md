@@ -11,6 +11,8 @@ Summary: A unified framework for machine learning with time series
 
 Development: https://github.com/aeon-toolkit/
 
+Documentation: https://aeon-toolkit.org/
+
 Current build status
 ====================
 
