@@ -1,5 +1,5 @@
 {% set name = "aeon" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aeon-{{ version }}.tar.gz
-  sha256: b7ba78d6ca669c43a07b44bc3f741dc20d866201dc9ac517841725a1e5aab025
+  sha256: 9f7894572cbfbe17a8ef07a751a719d961f5b71cf00f64de02fcfd14a0e72a10
 
 build:
   noarch: python
