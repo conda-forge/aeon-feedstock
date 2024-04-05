@@ -1,5 +1,5 @@
 {% set name = "aeon" %}
-{% set version = "0.7.1" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aeon-{{ version }}.tar.gz
-  sha256: 251cf952faa2224c70e7f2f1aba6eba375c40c28d5124b302467d30611cd88a0
+  sha256: fe9821c30bcb1ed628c9b41e702173a4e3e4bca6fc604b6a2a7f545b6e773d81
 
 build:
   noarch: python
@@ -30,6 +30,7 @@ requirements:
     - pandas >=1.5.3,<2.1.0
     - scikit-learn >=1.0.0,<1.5.0
     - scipy >=1.2.0,<1.13.0
+    - typing-extensions >=4.6.0
 
 test:
   imports:
