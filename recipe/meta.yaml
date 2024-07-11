@@ -1,5 +1,5 @@
 {% set name = "aeon" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aeon-{{ version }}.tar.gz
-  sha256: e299539131ef5b1f2b8f0d27880b0e8dca537cfb452075c4aca9904fb57c4123
+  sha256: 3efd3e9842fd2d3b6305e542887e8fda970e77ae35c5e4627d4b954bf20cf1e8
 
 build:
   noarch: python
@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.8,<3.13
+    - python >=3.9,<3.13
     - setuptools >61
     - toml
     - python-build
     - pip
   run:
-    - python >=3.8,<3.13
+    - python >=3.9,<3.13
     - deprecated >=1.2.13
     - numba >=0.55,<0.60.0
     - numpy >=1.21.0,<1.27.0
