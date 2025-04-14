@@ -3,13 +3,11 @@ About aeon-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aeon-feedstock/blob/main/LICENSE.txt)
 
-Home: https://aeon-toolkit.org/
+Home: https://github.com/aeon-toolkit/aeon
 
 Package license: BSD-3-Clause
 
 Summary: A unified framework for machine learning with time series
-
-Development: https://github.com/aeon-toolkit/
 
 Documentation: https://aeon-toolkit.org/
 
