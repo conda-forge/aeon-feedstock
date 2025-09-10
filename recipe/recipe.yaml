@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aeon
-  version: "1.2.0"
+  version: "1.3.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/aeon-${{ version }}.tar.gz
-  sha256: 9f028cef1b181a9943724186d3059b2afb4115c74c1e150347d69167f110fff6
+  sha256: 4892cd7446ce2c436d6312ee2ed4cf30bd232739bff8d9aab5acd37032b91031
 
 build:
   number: 0
@@ -32,7 +32,7 @@ requirements:
     - numpy >=1.21.0,<2.3.0
     - packaging >=20.0
     - pandas >=2.0.0,<2.4.0
-    - scikit-learn >=1.0.0,<1.7.0
+    - scikit-learn >=1.0.0,<1.8.0
     - scipy >=1.9.0,<1.16.0
     - typing_extensions >=4.6.0
 
