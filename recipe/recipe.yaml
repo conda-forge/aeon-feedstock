@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aeon
-  version: "1.5.0"
+  version: "1.6.0"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/aeon-${{ version }}.tar.gz
-  sha256: b1a8d589a3723f00ba3db8822e49b268d7ecf5b2e3993fca6bee90219d49c4df
+  sha256: 4bc3d9ee64caf4befdf98371997052c294502ea8ad117cc8a6df6045081af381
 
 build:
   number: 0
